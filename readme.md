@@ -1,6 +1,6 @@
 # Mealtracker [![Build Status](https://travis-ci.org/NativeScript/sample-Groceries.svg?branch=release)](https://travis-ci.org/NativeScript/sample-Groceries)
 
-Mealtracker is an Ionic Android/IOS meal tracking app that helps you memorize your food intake.
+Mealtracker is an Ionic Android/IOS meal tracking app that helps you memorize your food intake. This app uses the Parse Server backend as a service(https://back4app.com/) for storing data.
 
 
 <h2 id="screenshots">Screenshots</h2>
@@ -23,7 +23,7 @@ $ sudo npm install -g ionic cordova
 ```
 
 ```
-$ git clone https://github.com/emodatt08/Soundboard.git
+$ git clone https://github.com/emodatt08/Mealtracker-App
 $ cd <project name>
 ```
 
@@ -31,8 +31,12 @@ From there you can use the `rebuild` command to rebuild the project:
 
 ```
 $ npm rebuild node-sass
-```
 
+```
+Setup parse server details:
+Parse.initialize("<Application ID>" , "<JavaScript key>");
+Parse.serverURL = 'https://parseapi.back4app.com/';
+```
 then use `serve` command to run the project on your web browser:
 
 ```

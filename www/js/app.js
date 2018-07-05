@@ -29,8 +29,10 @@ app.run(function ($ionicPlatform) {
 
 		//Initialise Parse
 		//console.log(new Parse());
-		Parse.initialize("eiXG11S0yK94bF9v7vYyjfGcZLGdNDUKGQ4YdOpt" , "dvzFsQjZ8HoH9ZJnmflOu9kBGvIOzUmQc4JHgoPz");
+		Parse.initialize("" , "");
 		Parse.serverURL = 'https://parseapi.back4app.com/';
+
+		
 });
 
 app.config(function ($stateProvider, $urlRouterProvider) {
