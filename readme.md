@@ -34,7 +34,7 @@ $ npm rebuild node-sass
 
 ```
 
-Setup parse server details:
+Setup parse server details in app.js:
 ```
 Parse.initialize("<Application ID>" , "<JavaScript key>");
 Parse.serverURL = 'https://parseapi.back4app.com/';
