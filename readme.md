@@ -33,7 +33,9 @@ From there you can use the `rebuild` command to rebuild the project:
 $ npm rebuild node-sass
 
 ```
+
 Setup parse server details:
+```
 Parse.initialize("<Application ID>" , "<JavaScript key>");
 Parse.serverURL = 'https://parseapi.back4app.com/';
 ```
